@@ -22,7 +22,6 @@ jobs:
     container: gradle:6-jdk11
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      steps:
     - name: Clone down repository
       uses: actions/checkout@v4       
     - name: Build application
